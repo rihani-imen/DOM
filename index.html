@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <script
+      src="https://kit.fontawesome.com/9acbd586e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="produit">
+        <!--total-->
+        <div class="total">
+          <img src="img\pan.jpg" alt="img pann" height="150px" width="150px" />
+          <h1>TOTAL : <span id="total"> 0</span></h1>
+        </div>
+        <!--produit 1-->
+        <div class="list_prod" id="prod1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="50"
+            height="50"
+            fill="grey"
+            class="hart"
+            name="prod1"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+          <span class="nom_prod">robe 1</span>
+          <img src="img\robe1.jpg" alt="robe 1" height="200px " width="200px" />
+          <button type="button" class="button_plus" name="prod1">+</button>
+          <span class="prod_quantitie" id="prod1_quantitie">0</span>
+          <button type="button" class="button_moin" name="prod1">-</button>
+          <h2 class="prix"><span id="prod1_prix">1000</span>DT</h2>
+          <button type="button" class="button_delite" name="prod1">
+            Supprimer
+          </button>
+        </div>
+        <!--produit 2-->
+        <div class="list_prod" id="prod2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="50"
+            height="50"
+            fill="grey"
+            class="hart"
+            name="prod2"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+          <span class="nom_prod">robe 2</span>
+          <img src="img\robe2.jpg" alt="robe 2" height="200px " width="200px" />
+          <button type="button" class="button_plus" name="prod2">+</button>
+          <span class="prod_quantitie" id="prod2_quantitie">0</span>
+          <button type="button" class="button_moin" name="prod2">-</button>
+          <h2 class="prix"><span id="prod2_prix">1500</span>DT</h2>
+          <button type="button" class="button_delite" name="prod2">
+            Supprimer
+          </button>
+        </div>
+        <!--produit 3-->
+        <div class="list_prod" id="prod3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="50"
+            height="50"
+            fill="grey"
+            class="hart"
+            name="prod3"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+          <span class="nom_prod">robe 3</span>
+          <img src="img\robe3.jpg" alt="robe 3" height="200px " width="200px" />
+          <button type="button" class="button_plus" name="prod3">+</button>
+          <span class="prod_quantitie" id="prod3_quantitie">0</span>
+          <button type="button" class="button_moin" name="prod3">-</button>
+          <h2 class="prix"><span id="prod3_prix">2000</span>DT</h2>
+          <button type="button" class="button_delite" name="prod3">
+            Supprimer
+          </button>
+        </div>
+        <!--produit 4-->
+        <div class="list_prod" id="prod4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="50"
+            height="50"
+            fill="grey"
+            class="hart"
+            name="prod4"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+          <span class="nom_prod">robe 4</span>
+          <img src="img\robe4.jpg" alt="robe 4" height="200px " width="200px" />
+          <button type="button" class="button_plus" name="prod4">+</button>
+          <span class="prod_quantitie" id="prod4_quantitie">0</span>
+          <button type="button" class="button_moin" name="prod4">-</button>
+          <h2 class="prix"><span id="prod4_prix">2500</span>DT</h2>
+          <button type="button" class="button_delite" name="prod4">
+            Supprimer
+          </button>
+        </div>
+        <!--produit 5-->
+        <div class="list_prod" id="prod5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="50"
+            height="50"
+            fill="grey"
+            class="hart"
+            name="prod5"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+          <span class="nom_prod">robe 5</span>
+          <img src="img\robe5.jpg" alt="robe 5" height="200px " width="200px" />
+          <button type="button" class="button_plus" name="prod5">+</button>
+          <span class="prod_quantitie" id="prod5_quantitie">0</span>
+          <button type="button" class="button_moin" name="prod5">-</button>
+          <h2 class="prix"><span id="prod5_prix">3000</span>DT</h2>
+          <button type="button" class="button_delite" name="prod5">
+            Supprimer
+          </button>
+        </div>
+        <!--produit 6-->
+        <div class="list_prod" id="prod6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="50"
+            height="50"
+            fill="grey"
+            class="hart"
+            name="prod6"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+          <span class="nom_prod">robe 6</span>
+          <img src="img\robe6.jpg" alt="robe 6" height="200px " width="200px" />
+          <button type="button" class="button_plus" name="prod6">+</button>
+          <span class="prod_quantitie" id="prod6_quantitie">0</span>
+          <button type="button" class="button_moin" name="prod6">-</button>
+          <h2 class="prix"><span id="prod6_prix">3500</span>DT</h2>
+          <button type="button" class="button_delite" name="prod6">
+            Supprimer
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./DOM/script.js"></script>
+  </body>
+</html>
